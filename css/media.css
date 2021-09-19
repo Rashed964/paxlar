@@ -1,0 +1,29 @@
+@media (min-width: 0px) and (max-width: 575px){
+    .header_content {
+        min-height: 90vh !important;
+    }
+    .iphone {
+        text-align: center;
+    }
+    .owl-nav button.owl-next {
+        left: 44% !important;
+    }
+    .feedback {
+        height: 493px !important;
+    }
+    .footer_content h4 {
+        margin-top: 35px;
+    }
+    .icon-text i {
+        margin-left: 18px;
+    }
+    .btn-news {
+        right: -1px !important;}
+        .invited {
+            width: 5% !important;
+        }
+        .owl-carousel .owl-item img {
+            width: 20%;
+            left: 41%;
+        }
+    }

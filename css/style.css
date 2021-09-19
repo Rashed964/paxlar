@@ -1,0 +1,950 @@
+/* font-family: 'Montserrat', sans-serif; */
+/* font-family: 'Raleway', sans-serif; */
+*{
+    margin: 0;
+    padding: 0;
+}
+.header1{
+    background-color: #efefef;
+
+}
+.top-bar{
+
+display: flex;
+
+justify-content: space-between;
+
+}
+.top-left{
+
+}
+.top-left h6{
+
+font-size: 12px;
+
+margin: 15px 0;
+
+color: #7f7f7f;
+font-family: 'Montserrat', sans-serif;
+font-weight: 400;
+}
+.top-right{display: flex;}
+.top-right ul{
+    list-style: none;
+    font-size: 12px;
+    margin: 15px 0;
+    color: #7f7f7f;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    text-transform: uppercase;
+    }
+.top-right ul li{
+    
+}
+.navbar-light .navbar-nav .nav-link{
+    color: #161616 !important;
+    font-size: 14px !important;
+    font-weight: 400 !important;
+    text-transform: uppercase !important;
+    font-family: 'Montserrat', sans-serif !important;
+    margin: 18px 0;
+}
+.navbar-light .navbar-nav .nav-link:hover{
+    color: #ff9b1a !important
+}
+.btn-join{
+
+font-size: 14px;
+
+text-transform: uppercase;
+
+font-weight: 400;
+
+font-family: 'Montserrat', sans-serif;
+
+border-radius: 50px;
+
+border: 1px solid #ff9b1a;
+
+color: #fff !important;
+
+background: #ff9b1a;
+
+margin: 18px 0;
+
+margin-left: 20px;
+}
+.btn-join:hover{
+    background: #f6b969
+}
+.header_content{
+    background-image: url(../images/paxla-bg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 65vh;
+
+}
+.coin-header{
+}
+.coin-header h2{
+
+text-align: center;
+
+color: #fff;
+
+font-size: 52px;
+
+padding-top: 171px;
+}
+.counters{
+
+color: #efefef;
+
+margin-top: 44px;
+
+font-family: 'Raleway', sans-serif;
+
+font-weight: bold;
+}
+.counters h6{
+
+display: inline-block;
+}
+.counters p{
+
+font-size: 14px;
+}
+.button{
+    
+text-align: center;
+}
+.btn-join1{
+
+    font-size: 14px;
+    
+    text-transform: uppercase;
+    
+    font-weight: 400;
+    
+    font-family: 'Montserrat', sans-serif;
+    
+    border-radius: 50px;
+    
+    border: 1px solid #ff9b1a;
+    
+    color: #fff !important;
+    
+    background: #ff9b1a;
+    
+    margin: 18px 0;
+    
+    margin-left: 20px;
+    }
+    .btn-contact{
+
+        font-size: 14px;
+        
+        text-transform: uppercase;
+        
+        font-weight: 400;
+        
+        font-family: 'Montserrat', sans-serif;
+        
+        border-radius: 50px;
+        
+        border: 1px solid #fff;
+        
+        color: #fff !important;
+        
+        background: transparent;
+        
+        margin: 18px 0;
+        
+        margin-left: 20px;
+        }
+    .btn-join1:hover{
+        background: transparent;
+        border: 1px solid #fff;
+    }
+    
+    .btn-contact:hover{
+        background: #ff9b1a;
+        border: 1px solid #ff9b1a;
+    }
+    .features{
+
+margin: 80px 0 !important;
+}
+    .user-verify{
+
+text-align: center;
+
+transition: all 500ms ease-in-out 0s;;
+
+border: 1px solid #e8e3e3;
+
+padding: 37px 0;
+
+margin: 0 auto;
+}
+    .icon{
+
+font-size: 38px;
+
+color: #ff9b1a;
+
+margin-bottom: 12px;
+}
+    .icon i{
+
+    }
+    .user-verify h3{
+
+font-size: 17px;
+
+font-weight: 400;
+
+font-family: 'Montserrat', sans-serif;
+}
+    .user-verify p{
+        
+font-size: 14px;
+        
+font-weight: 300;
+        
+font-family: 'Montserrat', sans-serif;
+        
+color: #545454;
+        
+padding: 10px 22px;
+    }
+    .user-verify:hover {
+        background-image: url(../images/bitcoin.png);
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        color: #fff
+    }
+    .user-verify:hover p{
+        color: #fff;
+    }
+    .user-verify:hover .icon{
+        color: #fff;
+    }
+    .service{
+
+    }
+    .heading{
+        text-align: center;
+        margin-bottom: 66px;
+    }
+    .heading h1{
+
+color: #2b2b2b;
+
+font-size: 24px;
+
+font-weight: bold;
+
+text-transform: uppercase;
+
+font-family: 'Montserrat', sans-serif;
+
+}
+    .heading p{
+
+color: #6e6e6e;
+
+font-size: 14px;
+
+font-weight: 300;
+
+font-family: 'Montserrat', sans-serif;
+
+}
+.heading span{
+       position: relative;
+
+    }
+    .heading span::before{
+        content: "";
+        background-color: rgb(255, 155, 26);
+        position: absolute;
+        height: 3px;
+        width: 0px;
+        left: 0px;
+        bottom: 0px;
+        transition: all 400ms ease-in-out 0s;
+    }
+    .heading span::after{
+        content: "";
+        background-color: rgb(255, 155, 26);
+        position: absolute;
+        height: 3px;
+        width: 0px;
+        left: 0px;
+        bottom: 0px;
+        transition: all 400ms ease-in-out 0s;
+    }
+    .service:hover .heading span::before{
+        width: 50px;
+    }
+    .service:hover .heading span::after{
+        width: 50px;
+    }
+    
+    .btc-features{
+
+text-align: center;
+
+}
+    .btc-features img{
+
+    }
+    .btc-features h3{
+
+color: #2b2b2b;
+
+font-size: 18px;
+
+font-weight: 700;
+
+font-family: 'Raleway', sans-serif;
+
+margin-top: 18px;
+}
+    .btc-features p{
+        
+color: #424242;
+        
+font-size: 14px;
+        
+font-weight: 400;
+        
+font-family: 'Raleway', sans-serif;
+        
+padding: 0 12px;
+    }
+.button1{
+
+text-align: center;
+}
+.view-more{
+    
+font-size: 14px;
+    
+text-transform: uppercase;
+    
+font-weight: 400;
+    
+font-family: 'Montserrat', sans-serif;
+    
+border-radius: 50px;
+    
+border: 1px solid #a49898;
+    
+color: #000 !important;
+    
+background: #fff;
+    
+margin: 40px 0;
+    
+margin-left: 20px;
+}
+.view-more:hover{
+    background: #ff9b1a;
+    color: #fff !important;
+    transition: all 400ms ease-in-out 0s;
+}
+.wallet{
+    background-image: url(../images/wallet.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 70vh;
+    color: #fff;
+
+}
+.iphone{
+
+}
+.iphone img{
+
+margin-top: 175px;
+}
+.iphone_heading{
+
+margin-top: 30px;
+}
+.iphone_heading h2{
+
+font-size: 24px;
+
+text-transform: uppercase;
+
+margin-top: 72px;
+
+margin-bottom: 22px;
+}
+.iphone_heading span{position: relative;}
+.iphone_heading span::before{
+    content: "";
+    background-color: rgb(255, 155, 26);
+    position: absolute;
+    height: 3px;
+    width: 0px;
+    left: 0px;
+    bottom: 0px;
+    transition: all 400ms ease-in-out 0s;
+}
+.wallet:hover .iphone_heading span::before{
+    width: 50px;
+}
+.iphone_text{
+
+position: relative;
+
+margin-top: 67px;
+}
+.shape{
+
+height: 60px;
+
+width: 60px;
+
+border: 2px solid rgb(255 155 26);
+
+border-radius: 10px;
+
+position: absolute;
+
+bottom: 6px;
+transition: .5s all ease-in-out;
+}
+.iphone_heading h3{
+
+margin-left: 91px;
+
+font-size: 18px;
+
+font-family: 'Raleway', sans-serif;
+
+font-weight: bold;
+}
+.iphone_heading p{
+
+font-size: 14px;
+
+font-family: 'Raleway', sans-serif;
+
+font-weight: 400;
+
+margin-left: 91px;
+}
+.wallet:hover .shape{
+    
+transform: rotate(254deg);
+    
+transition: .5s all ease-in-out;
+}
+.transcation{
+
+background: #ff9b1a;
+
+padding: 27px 0;
+}
+.btc_transcation{
+    
+color: #fff;
+}
+.btc_transcation span{
+
+font-size: 50px;
+
+font-weight: bold;
+
+font-family: 'Raleway', sans-serif;
+}
+.btc_transcation h2{
+    
+text-transform: uppercase;
+    
+font-size: 18px !important;
+    
+font-weight: 300;
+    
+font-family: 'Raleway', sans-serif;
+}
+.btc_features{
+
+text-align: center;
+
+margin: 79px 0;
+}
+.btc_features img{
+}
+.team_expert{
+
+text-align: center;
+
+margin-bottom: 55px;
+}
+.team_expert h1{
+
+font-size: 22px;
+
+text-transform: uppercase;
+
+font-weight: bold;
+
+font-family: 'Montserrat', sans-serif;
+}
+.team_expert p{
+    
+font-size: 14px;
+    
+font-weight: 300;
+    
+color: #6e6e6e;
+    
+font-family: 'Montserrat', sans-serif;
+    
+margin-top: 19px;
+}
+.team_expert:hover .iphone_heading span::before{
+    width: 50px;
+}
+.client{
+
+padding: 21px 0;
+
+margin-top: 43px;
+}
+.client img{
+
+}
+.client h3{
+
+font-size: 18px;
+
+font-family: 'Montserrat', sans-serif;
+
+margin-top: 20px;
+}
+.client p{
+    
+font-size: 14px;
+    
+font-weight: 300;
+    
+color: #6e6e6e;
+    
+text-transform: uppercase;
+    
+font-family: 'Montserrat', sans-serif;
+    
+text-align: center;
+    
+margin-left: ;
+}
+.client:hover{
+    
+/* border: 1px solid #eee2e2; */
+    
+border-radius: 9px;
+    
+transition: .5s all ease-in-out;
+}
+.consultation{
+    background-image: url(../images/forum_bg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 60vh;
+    text-align: center;
+    padding: 53px 0;
+}
+.consultation h2{
+    font-size: 24px;
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+.consultation:hover .iphone_heading span::before{
+    width: 50px;
+}
+form{
+    
+position: relative;
+}
+.form-row input{
+    background-color: transparent;
+    margin-top: 30px;
+    border-radius: 10px;
+}
+.form input{
+color: #fff !important;
+background: transparent;
+}
+.form textarea{
+    
+}
+.form-control{background: transparent;color: #fff !important;}
+.btn-form{
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 300;
+    font-family: 'Montserrat', sans-serif;
+    border-radius: 50px;
+    border: 1px solid;
+    color: #fff !important;
+    background: #ff9b1a;
+    margin: 18px 0;
+    margin-left: 20px;
+    letter-spacing: 1px;
+    padding: 10px 33px;
+}
+.btn-form:hover{
+    background: transparent;
+}
+textarea{
+    border-radius: 10px !important;
+    color: #fff !important;
+    background: transparent;
+}
+.blogs{
+    text-align: center;
+
+}
+.blogs h1{
+
+font-size: 22px;
+
+font-weight: bold;
+
+text-transform: uppercase;
+
+font-family: 'Montserrat', sans-serif;
+
+text-align: center;
+
+margin-top: 61px;
+}
+.blogs p{
+
+font-size: 14px;
+
+font-weight: 300;
+
+font-family: 'Montserrat', sans-serif;
+
+text-align: center;
+
+color: #6e6e6e;
+
+margin-top: 16px;
+
+display: inline-block;
+}
+.blogs:hover .iphone_heading span::before{
+    width: 50px;
+}
+.blogs_content{
+    border: 1px solid #d1c5c5;
+    border-radius: 12px;
+}
+.blogs_content img{
+
+width: 100%;
+}
+.blogs_details{
+
+}
+.blogs_details i{
+
+background: #f26c4f;
+
+color: #fff;
+
+border-radius: 50px;
+
+padding: 15px 15px;
+
+position: absolute;
+
+left: 18%;
+
+top: 521%;
+
+transition: .5s all ease-in-out;
+}
+.blogs_details i:hover{
+    
+background: #fff;
+color: #f26c4f;
+}
+.blogs_details p:first-child{
+
+}
+.blogs_details p:last-child{
+    
+padding-left: 106px;
+}
+.blogs_content h5{
+    
+font-size: 18px;
+    
+font-weight: bold;
+    
+font-family: 'Montserrat';
+}
+.feedback{
+
+text-align: center;
+}
+.feedback h1{
+
+font-size: 22px;
+
+font-weight: bold;
+
+font-family: 'Montserrat';
+
+text-transform: uppercase;
+
+margin-top: 85px;
+}
+.feedback:hover .iphone_heading span::before{
+    width: 50px;
+}
+.client{
+
+}
+.feedback p{
+    color: #6e6e6e;
+    font-size: 14px;
+    font-family: 'Montserrat';
+    font-weight: 300;
+    margin: 35px 0;
+}
+.client_images{
+
+position: relative;
+
+/* left: 47%; */
+}
+.client_images img{
+
+width: 9%;
+
+border-radius: 59px;
+}
+.clients h5{
+
+font-size: 16px;
+
+font-weight: bold;
+
+font-family: 'Montserrat';
+
+margin-top: 16px;
+}
+.clients h6{
+    font-size: 14px;
+    font-weight: 300;
+    font-family: 'Montserrat';
+    text-transform: uppercase;
+    color: #fb8f2c;
+    margin-top: 18px;
+}
+.owl-carousel .owl-item img {
+    width: 9%;
+    position: relative;
+    left: 46%;
+}
+.invited{
+
+width: 2% !important;
+
+position: absolute !important;
+
+margin-top: -26px;
+}
+.owl-nav button.owl-prev,.owl-nav button.owl-next{
+    font-size: 70px !important;
+    bottom: 200px;
+    color: rgb(242, 108, 79) !important;
+    position: relative;
+    left: -46%;
+}
+.owl-nav button.owl-next{
+    font-size: 70px !important;
+    bottom: 200px;
+    color: rgb(242, 108, 79) !important;
+    position: relative;
+    left: 48%;
+}
+.owl-dots .owl-dot span {
+    font-size: 40px !important;
+    left: 0;
+    bottom: 200px;
+    color: rgb(242, 108, 79) !important;
+}
+.owl-dots .active span{
+    height: 15px;
+    width: 15px;
+}
+footer{
+    background: black;
+    padding: 75px 0;
+}
+footer img{
+
+}
+footer p{
+
+margin-top: 39px;
+
+color: #989898;
+
+font-size: 16px;
+
+font-weight: 400;
+
+margin-top: 40px;
+
+margin-top: 38px;
+
+margin-bottom: 33px;
+}
+.social_icon{
+
+color: #989898;
+}
+.social_icon i{
+    
+border: 1px solid;
+    
+border-radius: 60px;
+    
+padding: 14px 10px;
+    
+font-size: 15px;
+    
+height: 45px;
+    
+width: 45px;
+    
+text-align: center;
+    
+margin-right: 8px;
+    
+transition: .5s all ease-in-out;
+}
+.social_icon i:hover{
+    color: #00aced;
+    border: 1px solid #00aced;
+}
+.footer_content{
+
+padding-bottom: 1px;
+}
+.footer_content h4{
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+}
+.footer_content:hover .iphone_heading span::before{
+    width: 50px;
+}
+.icon-text{
+
+position: relative;
+
+margin-top: 46px;
+}
+.icon-text i{font-size: 18px;color: #989898;}
+.icon-text p{
+    
+position: absolute;
+    
+top: -168%;
+    
+left: 10%;
+    
+font-family: 'Montserrat';
+    
+font-weight: 300;
+    
+font-size: 16px;
+    
+letter-spacing: 2px;
+}
+.icon-text i:hover{
+    color: #00aced;
+    transition: .4s all ease-in-out;
+}
+.quick_links{
+
+margin-top: 31px;
+}
+.quick_links ul{
+
+list-style: none;
+
+font-size: 15px;
+}
+.quick_links ul li{
+}
+.quick_links ul li a{
+    
+text-decoration: none;
+    
+color: #989898;
+}
+.quick_links ul li a:hover{
+    color: #fff;
+    transition: .4s all ease-in-out;
+}
+form{
+
+}
+.form-newsletter{
+
+background: #fff;
+
+border-radius: 50px;
+}
+.form-newsletter input{
+
+border: 1px solid transparent;
+
+padding: 10px 12px;
+
+margin-top: 46px;
+}
+.btn-news{
+
+color: #fff !important;
+
+background-color: #fb8f2c;
+
+border-radius: 50px;
+
+padding: 0;
+
+padding: 10px 27px;
+
+right: -22px;
+
+position: absolute;
+
+bottom: 0;
+}
+.btn-news i{
+    
+}
