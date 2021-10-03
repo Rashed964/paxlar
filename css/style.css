@@ -579,8 +579,9 @@ form{
     
 position: relative;
 }
+
 .form-row input{
-    background-color: transparent;
+    background-color: transparent !IMPORTANT;
     margin-top: 30px;
     border-radius: 10px;
 }
@@ -606,13 +607,16 @@ background: transparent;
     letter-spacing: 1px;
     padding: 10px 33px;
 }
+::placeholder{
+    color: #fff !important;
+}
 .btn-form:hover{
     background: transparent;
 }
 textarea{
     border-radius: 10px !important;
     color: #fff !important;
-    background: transparent;
+    background: transparent !important;
 }
 .blogs{
     text-align: center;
@@ -647,6 +651,8 @@ color: #6e6e6e;
 margin-top: 16px;
 
 display: inline-block;
+
+padding: 0 10px;
 }
 .blogs:hover .iphone_heading span::before{
     width: 50px;
@@ -670,15 +676,17 @@ color: #fff;
 
 border-radius: 50px;
 
-padding: 15px 15px;
+padding: 8px 8px;
 
-position: absolute;
+/* position: absolute; */
 
-left: 18%;
+/* left: 17%; */
 
-top: 521%;
+/* top: 529%; */
 
 transition: .5s all ease-in-out;
+
+margin-left: -70px;
 }
 .blogs_details i:hover{
     
